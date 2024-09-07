@@ -1,7 +1,6 @@
 //TODO: failed to connect to the existing db, after writing all this code,
 //my cluster created another db called test, when I copied to test, all worked
 
-//setup
 require("dotenv").config();
 const express = require("express");
 const mongoose = require("mongoose");
@@ -9,7 +8,8 @@ const Sushi = require("./schema");
 
 //.env didn't work as expected
 const URI =
-  "mongodb+srv://Cluster97685:SXNkVV5JbnpX@cluster97685.wsz3j.mongodb.net/sushi_finder";
+  //why not /sushi_finder?
+  "mongodb+srv://Cluster97685:SXNkVV5JbnpX@cluster97685.wsz3j.mongodb.net/";
 //initiating express
 const app = express();
 app.use(express.json());
