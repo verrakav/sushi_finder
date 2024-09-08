@@ -1,9 +1,8 @@
-//TODO: failed to connect to the existing db, after writing all this code,
-
 //.env didn't work as expected
 require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
+//db related
 const mongoose = require("mongoose");
 const Sushi = require("./schema");
 
@@ -29,7 +28,7 @@ mongoose
   )
   .catch(err => console.log("Err:", err));
 
-//getting the sushi
+//getting sushi
 app.get("/sushi", async (req, res) => {
   const {ingredients, calories} = req.query;
 
@@ -40,8 +39,8 @@ app.get("/sushi", async (req, res) => {
     if (ingredients) {
       //recieving a str from the front => convert into arr
       const ingredientsArr = ingredients.split(",").map(i => i.trim());
-      //populating the query obj | $all the exact match, but 1 is enough
-      query.ingredients = {ingredients: ingredientsArr};
+      //populating the query obj
+      query.ingredients = {$all: ingredientsArr};
     }
 
     //condition for calories
@@ -49,8 +48,8 @@ app.get("/sushi", async (req, res) => {
       const caloriesNum = Number(calories);
       query.calories = {$lte: caloriesNum};
     }
+
     const sushiList = await Sushi.find(query);
-    // console.log(sushiList);
     res.json(sushiList);
   } catch (err) {
     res.status(500).json({error: "Server Error"});
