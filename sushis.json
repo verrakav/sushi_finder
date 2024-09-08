@@ -1,0 +1,214 @@
+[{
+  "_id": 1,
+  "name": "California Roll",
+  "ingredients": [
+    "Crab",
+    "Avocado",
+    "Cucumber",
+    "Nori",
+    "Rice"
+  ],
+  "calories": 250
+},
+{
+  "_id": 2,
+  "name": "Spicy Tuna Roll",
+  "ingredients": [
+    "Tuna",
+    "Sriracha",
+    "Nori",
+    "Rice",
+    "Green Onion"
+  ],
+  "calories": 290
+},
+{
+  "_id": 3,
+  "name": "Salmon Nigiri",
+  "ingredients": [
+    "Salmon",
+    "Rice"
+  ],
+  "calories": 130
+},
+{
+  "_id": 4,
+  "name": "Eel Roll",
+  "ingredients": [
+    "Eel",
+    "Cucumber",
+    "Avocado",
+    "Nori",
+    "Rice"
+  ],
+  "calories": 300
+},
+{
+  "_id": 5,
+  "name": "Rainbow Roll",
+  "ingredients": [
+    "Crab",
+    "Avocado",
+    "Tuna",
+    "Salmon",
+    "Yellowtail",
+    "Nori",
+    "Rice"
+  ],
+  "calories": 350
+},
+{
+  "_id": 6,
+  "name": "Philadelphia Roll",
+  "ingredients": [
+    "Salmon",
+    "Cream Cheese",
+    "Cucumber",
+    "Nori",
+    "Rice"
+  ],
+  "calories": 320
+},
+{
+  "_id": 7,
+  "name": "Shrimp Tempura Roll",
+  "ingredients": [
+    "Shrimp Tempura",
+    "Avocado",
+    "Cucumber",
+    "Nori",
+    "Rice"
+  ],
+  "calories": 350
+},
+{
+  "_id": 8,
+  "name": "Dragon Roll",
+  "ingredients": [
+    "Eel",
+    "Avocado",
+    "Cucumber",
+    "Nori",
+    "Rice",
+    "Unagi Sauce"
+  ],
+  "calories": 370
+},
+{
+  "_id": 9,
+  "name": "Cucumber Roll",
+  "ingredients": [
+    "Cucumber",
+    "Nori",
+    "Rice"
+  ],
+  "calories": 140
+},
+{
+  "_id": 10,
+  "name": "Tuna Sashimi",
+  "ingredients": [
+    "Tuna"
+  ],
+  "calories": 50
+},
+{
+  "_id": 11,
+  "name": "Salmon Sashimi",
+  "ingredients": [
+    "Salmon"
+  ],
+  "calories": 60
+},
+{
+  "_id": 12,
+  "name": "Yellowtail Roll",
+  "ingredients": [
+    "Yellowtail",
+    "Green Onion",
+    "Nori",
+    "Rice"
+  ],
+  "calories": 280
+},
+{
+  "_id": 13,
+  "name": "Vegetable Roll",
+  "ingredients": [
+    "Avocado",
+    "Cucumber",
+    "Carrot",
+    "Nori",
+    "Rice"
+  ],
+  "calories": 180
+},
+{
+  "_id": 14,
+  "name": "Spider Roll",
+  "ingredients": [
+    "Soft Shell Crab",
+    "Avocado",
+    "Cucumber",
+    "Nori",
+    "Rice"
+  ],
+  "calories": 420
+},
+{
+  "_id": 15,
+  "name": "Octopus Nigiri",
+  "ingredients": [
+    "Octopus",
+    "Rice"
+  ],
+  "calories": 110
+},
+{
+  "_id": 16,
+  "name": "Mackerel Nigiri",
+  "ingredients": [
+    "Mackerel",
+    "Rice"
+  ],
+  "calories": 100
+},
+{
+  "_id": 17,
+  "name": "Tamago Nigiri",
+  "ingredients": [
+    "Sweet Egg",
+    "Rice"
+  ],
+  "calories": 140
+},
+{
+  "_id": 18,
+  "name": "Alaskan Roll",
+  "ingredients": [
+    "Salmon",
+    "Avocado",
+    "Cucumber",
+    "Nori",
+    "Rice"
+  ],
+  "calories": 310
+},
+{
+  "_id": 19,
+  "name": "Scallop Nigiri",
+  "ingredients": [
+    "Scallop",
+    "Rice"
+  ],
+  "calories": 120
+},
+{
+  "_id": 20,
+  "name": "Shrimp Nigiri",
+  "ingredients": [
+    "Shrimp",
+    "Rice"
+  ],
+  "calories": 110
+}]
