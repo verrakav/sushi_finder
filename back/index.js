@@ -11,14 +11,13 @@ const app = express();
 
 //enabling front- and backend to communicate
 app.use(cors());
-//parses JSON request body
+//auto-parses JSON from request body into a JS obj
 app.use(express.json());
 
 //
 const PORT = process.env.PORT || 5000;
 //why process.env... is undefined?
-const URI =
-  "mongodb+srv://Cluster97685:SXNkVV5JbnpX@cluster97685.wsz3j.mongodb.net/sushi_finder";
+const URI = process.env.MONGO_URI;
 //connecting to mongodb
 mongoose
   //the {} used to have {useNewUrlParser: true, useUnifiedTopology: true} now deprecated
@@ -59,3 +58,7 @@ app.get("/sushi", async (req, res) => {
 app.listen(PORT, () => {
   console.log(`Sever runing on ${PORT}`);
 });
+
+//TODO:
+//fix the case for lowercase ingred
+//

@@ -1,11 +1,13 @@
 function Result({result}) {
   const resultList = result.map(sushi => {
+    const ingredientsString = sushi.ingredients.join(", ");
+    console.log(sushi.ingredients);
     return (
       <li key={sushi._id}>
         <h4>
           {sushi.name} - {sushi.calories}
         </h4>
-        <span>{sushi.ingredients}</span>
+        <span>{ingredientsString}</span>
       </li>
     );
   });

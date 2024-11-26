@@ -9,6 +9,9 @@ function Form() {
 
   const handleSubmit = async event => {
     event.preventDefault();
+
+    //make sure lowercase also works here
+
     //constructing query
     const query = new URLSearchParams();
     if (ingredients) query.append("ingredients", ingredients);
